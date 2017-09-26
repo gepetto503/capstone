@@ -3,7 +3,7 @@
   <button (click)="getNonProfits(state.value)">Search</button>
 </form>
 
-<div *ngIf='npos'>
+<div *ngIf='apiResponse'>
   <!-- <p>{{npos.date}}</p> -->
-  <app-list [childNpos]='npos'></app-list>
+  <app-list [childApiResponse]='apiResponse'></app-list>
 </div>

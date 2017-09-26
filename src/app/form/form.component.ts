@@ -10,15 +10,15 @@ import { ApiCallService } from '../api-call.service';
   providers: [ApiCallService]
 })
 export class FormComponent {
-  npos: any[]=null;
+  apiResponse: any[]=null;
 
   constructor(private apiCallService: ApiCallService ) { }
 
   getNonProfits(state: string) {
     console.log(state);
     this.apiCallService.getByState(state).subscribe(response => {
-      this.npos = response.json();
-      console.log(this.npos);
+      this.apiResponse = response.json();
+      console.log(this.apiResponse);
     })
   }
 

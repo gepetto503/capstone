@@ -1,1 +1,3 @@
-<p>{{childNpos.date}}</p>
+<div *ngFor="let npo of childApiResponse.organizations">
+  <p>{{npo.name}}</p>
+</div>

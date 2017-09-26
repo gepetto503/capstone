@@ -9,7 +9,7 @@ import { DatabaseInteractionService } from '../database-interaction.service';
 
 })
 export class ListComponent {
-  @Input() childNpos;
+  @Input() childApiResponse;
 
   constructor(private databaseService: DatabaseInteractionService) { }
 
