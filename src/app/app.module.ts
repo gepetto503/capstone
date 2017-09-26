@@ -10,6 +10,8 @@ import { ListComponent } from './list/list.component';
 import { FormComponent } from './form/form.component';
 import { UserListComponent } from './user-list/user-list.component';
 
+import { NPO } from './NPO.model';
+
 @NgModule({
   declarations: [
     AppComponent,

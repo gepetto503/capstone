@@ -4,6 +4,28 @@ Brendan Hanna
 
 An app for the general public to find non-profits in their area and manage one-time or recurring donations to them.
 
+##Specs
+
+###MVP
+Search a non-profit API to return info about non profits in a given area, including contact info.
+
+Create a new "non profit" object and store it to Firebase database.
+
+Be able to Create, Read, Update and Delete database entries from interface
+
+Google Authentication
+
+Mobile Layout
+
+###Wishlist
+Use Stripe API to process transactions
+
+Add user info/picture
+
+Google Map Search for non profits
+
+Social media tab with feed and walls where the user can see other users and organizations activity and post to their walls
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
@@ -15,8 +37,8 @@ Clone repo
 
 run 'npm install' from command line
 
-### API keys
-You need api keys for the project to successfully build/serve and obviously to make the api call.
+### API key
+You need an api key for the project to successfully build/serve.
 
 create a file called api-keys.ts in the src directory.
 get an Api key for Guidestar's Search API using this guide: https://community.guidestar.org/docs/DOC-2193-how-to-sign-up-for-guidestar-sandbox-apis

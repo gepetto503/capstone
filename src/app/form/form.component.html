@@ -1,3 +1,9 @@
-<p>
-  form works!
-</p>
+<form>
+  <input type="text" #state>
+  <button (click)="getNonProfits(state.value)">Search</button>
+</form>
+
+<div *ngIf='npos'>
+  <!-- <p>{{npos.date}}</p> -->
+  <app-list [childNpos]='npos'></app-list>
+</div>

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Cause } from './cause.model';
+import { NPO } from './NPO.model';
 
 
 @Injectable()

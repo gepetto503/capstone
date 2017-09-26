@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { DatabaseInteractionService } from '../database-interaction.service';
 
 @Component({
   selector: 'app-list',
   templateUrl: './list.component.html',
-  styleUrls: ['./list.component.scss']
+  styleUrls: ['./list.component.scss'],
+  providers: [DatabaseInteractionService]
+
 })
-export class ListComponent implements OnInit {
+export class ListComponent {
+  @Input() childNpos;
 
-  constructor() { }
+  constructor(private databaseService: DatabaseInteractionService) { }
 
-  ngOnInit() {
-  }
+//a function to save selected npos from the list to the database
+
 
 }
