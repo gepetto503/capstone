@@ -1,3 +1,5 @@
-<div *ngFor="let npo of childApiResponse.organizations">
-  <p>{{npo.name}}</p>
+<div>
+  <app-npo *ngFor="let npo of childApiResponse.organizations" [childNpo]="npo"></app-npo>
+  <!-- <app-npo [childNpo]='childApiResponse'></app-npo> -->
+  <!-- <p>{{npo.name}}</p> -->
 </div>

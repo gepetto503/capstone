@@ -7,22 +7,22 @@ An app for the general public to find non-profits in their area and manage one-t
 ##Specs
 
 ###MVP
-Search a non-profit API to return info about non profits in a given area, including contact info.
+Search data from an API to return info about Non Profit Organizations (NPOs) in a given area.
 
-Create a new "non profit" object and store it to Firebase database.
+User can add an NPO to their own personal list, thereby creating a new entry in a Firebase database.
 
-Be able to Create, Read, Update and Delete database entries from interface
+Be able to Create, Read, Update and Delete database entries from user interface.
 
-Google Authentication
+Google Authentication.
 
-Mobile Layout
+Mobile Layout.
 
 ###Wishlist
 Use Stripe API to process transactions
 
 Add user info/picture
 
-Google Map Search for non profits
+Google Map Search for non profits (on top of regular list view search)
 
 Social media tab with feed and walls where the user can see other users and organizations activity and post to their walls
 

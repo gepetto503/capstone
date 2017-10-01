@@ -1,0 +1,9 @@
+<form id="search-form">
+  <input type="text" placeholder="search by state" #state>
+  <button (click)="getNonProfits(state.value)">Search</button>
+</form>
+
+<div *ngIf='apiResponse'>
+  <!-- <p>{{npos.date}}</p> -->
+  <app-list [childApiResponse]='apiResponse'></app-list>
+</div>

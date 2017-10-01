@@ -5,11 +5,12 @@ import { Routes, RouterModule } from '@angular/router';
 import { FormComponent } from './form/form.component';
 import { ListComponent } from './list/list.component';
 import { UserListComponent } from './user-list/user-list.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 const appRoutes: Routes = [
   {
     path: '',
-    component: FormComponent
+    component: WelcomeComponent
   },
   {
     path: 'list',

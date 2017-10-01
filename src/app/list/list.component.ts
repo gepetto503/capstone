@@ -4,7 +4,7 @@ import { DatabaseInteractionService } from '../database-interaction.service';
 @Component({
   selector: 'app-list',
   templateUrl: './list.component.html',
-  styleUrls: ['./list.component.scss'],
+  styleUrls: ['../../stylesheets/components/list.component.scss'],
   providers: [DatabaseInteractionService]
 
 })

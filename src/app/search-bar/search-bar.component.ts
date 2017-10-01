@@ -4,12 +4,12 @@ import { Observable } from 'rxjs/Observable';
 import { ApiCallService } from '../api-call.service';
 
 @Component({
-  selector: 'app-form',
-  templateUrl: './form.component.html',
-  styleUrls: ['../../stylesheets/components/form.component.scss'],
+  selector: 'app-search-bar',
+  templateUrl: './search-bar.component.html',
+  styleUrls: ['../../stylesheets/components/search-bar.component.scss'],
   providers: [ApiCallService]
 })
-export class FormComponent {
+export class SearchBarComponent {
   apiResponse: any[]=null;
 
   constructor(private apiCallService: ApiCallService ) { }
@@ -21,4 +21,5 @@ export class FormComponent {
       console.log(this.apiResponse);
     })
   }
+
 }
